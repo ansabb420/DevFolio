@@ -1,5 +1,10 @@
 html, body {
   height: 100%;
+  background-image: url('assets/img/backgroung/BG.jpg');
+  background-size: cover; /* Ensures the background covers the whole page */
+  background-repeat: no-repeat; /* Prevents the background from repeating */
+  background-position: center; /* Centers the background */
+  background-color: var(--background); /* Fallback in case the image doesn't load */
 }
 
 :root {
@@ -10,6 +15,7 @@ html, body {
   --text-color: #F4EDE8;
   --green: #04D361;
 }
+
 
 ::-webkit-scrollbar {
   width: 0;
